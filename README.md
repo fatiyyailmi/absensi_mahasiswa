@@ -56,7 +56,7 @@ Buat file .env:
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=
-DB_NAME=absensi_db
+DB_NAME=absensi
 PORT=5000
 ```
 
