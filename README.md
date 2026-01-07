@@ -90,7 +90,7 @@ CREATE TABLE absensi (
 ### 4. Setup Frontend
 Masuk ke folder frontend:
 ```bash
-cd ../frontend/absensi-mahasiswa
+cd ../frontend
 npm install
 npm start
 ```
