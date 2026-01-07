@@ -74,9 +74,9 @@ http://localhost:5000
 ### 3. Setup Database
 Buat database dan tabel di MySQL:
 ```bash
-CREATE DATABASE absensi_db;
+CREATE DATABASE absensi;
 
-USE absensi_db;
+USE absensi;
 
 CREATE TABLE absensi (
   id INT AUTO_INCREMENT PRIMARY KEY,
