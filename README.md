@@ -7,6 +7,16 @@ Aplikasi ini mendukung fitur **CRUD (Create, Read, Update, Delete)** data absens
 
 ---
 
+## Fitur Aplikasi
+1. Menampilkan seluruh data absensi
+2. Menambahkan data absensi
+3. Mengedit data absensi
+4. Menghapus data absensi
+5. Navigasi halaman dengan React Router
+6. Tampilan responsif menggunakan Tailwind CSS
+
+---
+
 ## Teknologi yang Digunakan
 
 ### Frontend
@@ -90,12 +100,5 @@ Akses aplikasi di browser:
 http://localhost:3000
 ```
 
-## Fitur Aplikasi
-1. Menampilkan seluruh data absensi
-2. Menambahkan data absensi
-3. Mengedit data absensi
-4. Menghapus data absensi
-5. Navigasi halaman dengan React Router
-6. Tampilan responsif menggunakan Tailwind CSS
 
 
