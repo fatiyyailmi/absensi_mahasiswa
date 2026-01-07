@@ -41,7 +41,7 @@ Aplikasi ini mendukung fitur **CRUD (Create, Read, Update, Delete)** data absens
 
 ```bash
 git clone https://github.com/fatiyyailmi/absensi_mahasiswa
-cd absensi-mahasiswa
+cd absensi_mahasiswa
 ```
 
 ### 2. Setup Backend
