@@ -37,7 +37,7 @@ function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-teal-900" />
 
       <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
-        <h2 className="text-white text-4xl font-bold">
+        <h2 className="text-center text-white text-4xl font-bold">
           Sistem Absensi Mahasiswa
         </h2>
         <Link
