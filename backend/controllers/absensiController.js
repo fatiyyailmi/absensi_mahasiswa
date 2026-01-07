@@ -53,3 +53,24 @@ exports.deleteAbsensi = (req, res) => {
     });
 };
 
+// GET by ID (edit)
+exports.getAbsensiById = (req, res) => {
+  const { id } = req.params;
+
+  const query = "SELECT * FROM absensi WHERE id = ?";
+
+  db.query(query, [id], (err, results) => {
+    if (err) {
+      res.status(500).json(err);
+    } else {
+      if (results.length === 0) {
+        res.status(404).json({ message: "Data tidak ditemukan" });
+      } else {
+        res.json(results[0]); 
+      }
+    }
+  });
+};
+
+
+

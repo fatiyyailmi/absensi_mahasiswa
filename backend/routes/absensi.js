@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
-const absensicontroller = require("../controllers/absensiController");
 
-router.get("/absensi", absensicontroller.getAllAbsensi);
-router.post("/absensi", absensicontroller.createAbsensi);
-router.put("/absensi/:id", absensicontroller.updateAbsensi);
-router.delete("/absensi/:id", absensicontroller.deleteAbsensi);
+const controller = require("../controllers/absensiController");
+
+router.get("/absensi", controller.getAllAbsensi);
+router.get("/absensi/:id", controller.getAbsensiById);
+router.post("/absensi", controller.createAbsensi);
+router.put("/absensi/:id", controller.updateAbsensi);
+router.delete("/absensi/:id", controller.deleteAbsensi);
 
 module.exports = router;
-
-

@@ -7,12 +7,10 @@ function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-blue-900 to-teal-900 text-white px-6 py-4">
       <div className="flex justify-between items-center">
-        {/* Logo / Title */}
         <h1 className="font-bold text-lg">
           Absensi Mahasiswa
         </h1>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-4 items-center">
           <Link to="/" className="hover:underline">
             Home
@@ -25,7 +23,6 @@ function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile Button */}
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setOpen(!open)}
@@ -55,7 +52,6 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {open && (
         <div className="md:hidden mt-4 flex flex-col space-y-3">
           <Link
