@@ -35,7 +35,7 @@ function AbsensiList({ absensi, onDelete }) {
                   {item.nim}
                 </td>
                 <td className="px-4 py-2 border">
-                  {item.tanggal}
+                  {new Date(item.tanggal).toLocaleDateString("id-ID")}
                 </td>
                 <td className="px-4 py-2 border">
                   {item.status}
@@ -43,14 +43,14 @@ function AbsensiList({ absensi, onDelete }) {
                   <td className="px-4 py-2 border text-center space-x-2">
                     <Link
                       to={`/edit/${item.id}`}
-                      className="bg-yellow-500 text-white px-3 py-1 rounded-xl hover:bg-yellow-600"
+                      className="text-sm lg:text-lg bg-yellow-500 text-white px-3 py-1 rounded-xl hover:bg-yellow-600"
                     >
                       Edit
                     </Link>
 
                     <button
                       onClick={() => onDelete(item.id)}
-                      className="bg-red-500 text-white px-3 py-1 rounded-xl hover:bg-red-600"
+                      className="text-sm lg:text-lg bg-red-500 text-white px-3 py-1 rounded-xl hover:bg-red-600"
                     >
                       Hapus
                     </button>

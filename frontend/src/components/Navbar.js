@@ -17,7 +17,7 @@ function Navbar() {
           </Link>
           <Link
             to="/tambah"
-            className="bg-white text-teal-900 font-bold px-3 py-1 rounded-2xl hover:bg-blue-100"
+            className="text-white text-teal-900 hover:underline px-3 py-1"
           >
             Tambah Data
           </Link>
@@ -64,7 +64,7 @@ function Navbar() {
 
           <Link
             to="/tambah"
-            className="bg-white text-teal-900 font-bold px-3 py-2 rounded-2xl hover:bg-blue-100 text-center"
+            className="hover:underline"
             onClick={() => setOpen(false)}
           >
             Tambah Data

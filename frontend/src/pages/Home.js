@@ -42,7 +42,7 @@ function Home() {
         </h2>
         <Link
           to="/tambah"
-          className="text-lg bg-gradient-to-r from-teal-500 to-blue-700 text-white font-bold px-3 py-1 rounded-2xl hover:bg-blue-900"
+          className="text-lg bg-gradient-to-r from-teal-500 to-blue-700 text-white font-bold px-3 py-1 rounded-2xl hover:underline"
         >
           Tambah Data
         </Link>
